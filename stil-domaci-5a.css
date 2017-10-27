@@ -1,0 +1,38 @@
+.article {
+	position: relative;
+}
+.slika {
+	width: 100%;
+	max-width: 800px;
+	height: auto;
+	display: block;
+    margin: auto;
+}
+.tekst {
+	height: 250px;
+	width: 500px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: small;
+	border: 1px solid #242424;
+	background-color: #F0FFFF;
+	padding: 10px 40px 10px 40px;
+	position: absolute;
+	top: 350px;
+	left: 0px;
+	right: 0px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.link {
+	color: #FF7F50;
+	text-decoration: none;
+}
+.petar {
+	float: right;
+	border-radius: 50%;
+}
+@media screen and (max-width: 400px) {
+	.slika {
+		display: none;
+	}
+}
